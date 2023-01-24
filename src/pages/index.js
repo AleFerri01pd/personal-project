@@ -4,7 +4,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className='container'>
-        <h1>Personal Portfolio</h1>
+        <h1>Personal Portfolio Test</h1>
       </div>
     )
   }
