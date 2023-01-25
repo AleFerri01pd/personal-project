@@ -1,13 +1,15 @@
-import React from "react"
+import React from "react";
+import Header from '../components/Offcanvas';
+import Layout from '../components/Layout';
 
 class Index extends React.Component {
-  render() {
-    return (
-      <div className='container'>
-        <h1>Personal Portfolio Test</h1>
-      </div>
-    )
-  }
+    render() {
+        return (
+            <Layout>
+                <h1>Personal Portfolio Test</h1>
+            </Layout>
+        )
+    }
 }
 
 export default Index;

@@ -1,0 +1,17 @@
+@import url('./header.css');
+
+body,
+html,
+main {
+    height: 100%;
+    margin: 0;
+}
+
+main nav {
+    background-color: red;
+    padding: 30px;
+}
+
+main .siteContent {
+    padding: 0 30px 50px;
+}
