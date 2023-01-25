@@ -1,14 +1,13 @@
 import React from "react";
 import { stack as Menu } from 'react-burger-menu';
+import Link from "next/link";
 
 export default class Offcanvas extends React.Component {
     render() {
         return (
             <Menu>
-                <a id="home" className="menu-item" href="/">Home</a>
-                <a id="about" className="menu-item" href="/about">About</a>
-                <a id="contact" className="menu-item" href="/contact">Contact</a>
-                <a className="menu-item--small" href="">Settings</a>
+                <Link href="/">Home</Link>
+                <Link href="/test">Test</Link>
             </Menu>
         )
     }
