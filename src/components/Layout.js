@@ -5,7 +5,7 @@ import OffCanvas from './Offcanvas';
 const BasicLayout = (props) => {
     return (
         <Container>
-            <OffCanvas />
+            {/*<OffCanvas />*/}
             <main>
                 <nav></nav>
                 <div className="siteContent">
